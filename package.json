@@ -1,0 +1,25 @@
+{
+	"name": "@exe-boss/eslint-config",
+	"version": "0.1.0",
+	"description": "The ESLint configuration I use in all my JavaScript projects.",
+	"main": "index.js",
+	"scripts": {
+		"lint": "eslint index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ExE-Boss/eslint-config.git"
+	},
+	"author": "ExE Boss",
+	"license": "LGPL-3.0",
+	"homepage": "https://github.com/ExE-Boss/eslint-config#readme",
+	"bugs": {
+		"url": "https://github.com/ExE-Boss/eslint-config/issues"
+	},
+	"peerDependencies": {
+		"eslint": ">= 4"
+	},
+	"devDependencies": {
+		"eslint": "^5.0.1"
+	}
+}
