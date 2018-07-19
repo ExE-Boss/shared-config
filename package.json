@@ -4,7 +4,7 @@
 	"description": "The ESLint configuration I use in all my JavaScript projects.",
 	"main": "index.js",
 	"scripts": {
-		"lint": "eslint index.js"
+		"lint": "eslint ."
 	},
 	"repository": {
 		"type": "git",
@@ -20,6 +20,6 @@
 		"eslint": ">= 4"
 	},
 	"devDependencies": {
-		"eslint": "^5.0.1"
+		"eslint": "^5.1.0"
 	}
 }

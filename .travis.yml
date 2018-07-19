@@ -19,7 +19,7 @@ install:
 
 # The pre-build script
 before_script:
-    - greenkeeper-lockfile-update
+    - greenkeeper-lockfile-update || true
 
 # The build script
 script:
@@ -27,7 +27,7 @@ script:
 
 # The post-build script
 after_script:
-    - greenkeeper-lockfile-upload
+    - greenkeeper-lockfile-upload || true
 
 # Disable email notifications
 notifications:

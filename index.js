@@ -15,18 +15,11 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 "use strict";
-/* eslint-env node */
-/* eslint sort-keys: ["error", "asc"] */
-
 module.exports = {
 	env: {
 		es6: true,
 	},
 	extends: "eslint:recommended",
-	parserOptions: {
-		ecmaVersion: 9,
-	},
-	root: true,
 	rules: {
 		"block-scoped-var": "error",
 		"comma-dangle": [

@@ -15,6 +15,15 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 "use strict";
-/* eslint-env node */
-
-module.exports = require("./index.js");
+module.exports = Object.assign(require("./index.js"), {
+	env: {
+		node: true,
+	},
+	root: true,
+	rules: {
+		"sort-keys": [
+			"error",
+			"asc",
+		],
+	},
+});
