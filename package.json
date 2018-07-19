@@ -1,6 +1,6 @@
 {
 	"name": "@exe-boss/eslint-config",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "The ESLint configuration I use in all my JavaScript projects.",
 	"main": "index.js",
 	"scripts": {
