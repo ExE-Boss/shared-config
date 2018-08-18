@@ -41,6 +41,7 @@ module.exports = {
 			{
 				SwitchCase: 1,
 				ignoreComments: true,
+				outerIIFEBody: 0,
 			},
 		],
 		"linebreak-style": [
