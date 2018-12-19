@@ -16,7 +16,9 @@
  */
 "use strict";
 
-module.exports = Object.assign(require("./index.js"), {
+const extend = require("extend");
+
+module.exports = extend(true, require("./index.js"), {
 	env: {
 		node: true,
 	},

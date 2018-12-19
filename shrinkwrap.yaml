@@ -1,5 +1,7 @@
 devDependencies:
+  '@types/extend': 3.0.0
   eslint: 5.10.0
+  extend: 3.0.2
 packages:
   /@babel/code-frame/7.0.0:
     dependencies:
@@ -15,6 +17,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-UFMC4ZeFC48Tpvj7C8UgLvtkaUuovQX+5xNWrsIoMG8o2z+XFKjKaN9iVmS84dPwVN00W4wPmqvYoZF3EGAsfw==
+  /@types/extend/3.0.0:
+    dev: true
+    resolution:
+      integrity: sha512-Eo8NQCbgjlMPQarlFAE3vpyCvFda4dg1Ob5ZJb6BJI9x4NAZVWowyMNB8GJJDgDI4lr2oqiQvXlPB0Fn1NoXnQ==
   /acorn-jsx/5.0.1/acorn@6.0.4:
     dependencies:
       acorn: 6.0.4
@@ -295,6 +301,10 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-Cr9PHKpbyx96nYrMbepPqqBLrJs=
+  /extend/3.0.2:
+    dev: true
+    resolution:
+      integrity: sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==
   /external-editor/3.0.3:
     dependencies:
       chardet: 0.7.0
@@ -801,4 +811,6 @@ registry: 'https://registry.npmjs.org/'
 shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
 specifiers:
+  '@types/extend': 3.0.0
   eslint: 5.10.0
+  extend: 3.0.2
