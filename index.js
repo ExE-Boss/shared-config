@@ -21,6 +21,9 @@ module.exports = {
 		es6: true,
 	},
 	extends: "eslint:recommended",
+	parserOptions: {
+		ecmaVersion: 9,
+	},
 	rules: {
 		"block-scoped-var": "error",
 		"comma-dangle": [
