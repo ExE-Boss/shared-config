@@ -28,7 +28,7 @@
 		"eslint": ">= 4"
 	},
 	"devDependencies": {
-		"@types/extend": "3.0.0",
+		"@types/extend": "3.0.1",
 		"eslint": "5.10.0",
 		"extend": "3.0.2"
 	}
