@@ -29,7 +29,7 @@
 	},
 	"devDependencies": {
 		"@types/extend": "3.0.0",
-		"eslint": "5.10.0",
+		"eslint": "5.14.0",
 		"extend": "3.0.2"
 	}
 }
