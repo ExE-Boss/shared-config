@@ -20,7 +20,7 @@
 !/gulpfile*
 !/package*
 !/yarn*
-!/shrinkwrap*
+!/pnpm-lock*
 !/.*ignore
 !/index.js
 
