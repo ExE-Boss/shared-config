@@ -106,7 +106,7 @@ module.exports = {
 				requireParamDescription: false,
 				requireReturn: false,
 				requireReturnDescription: false,
-				requireReturnType: true,
+				requireReturnType: false,
 			},
 		],
 	},
