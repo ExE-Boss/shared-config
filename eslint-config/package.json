@@ -6,30 +6,22 @@
 	"license": "LGPL-3.0",
 	"main": "index.js",
 
-	"scripts": {
-		"lint": "eslint ."
-	},
 	"keywords": [
 		"eslint",
 		"eslint-config",
 		"eslintconfig"
 	],
 
-	"homepage": "https://github.com/ExE-Boss/eslint-config#readme",
+	"homepage": "https://github.com/ExE-Boss/shared-config/blob/master/eslint-config#readme",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/ExE-Boss/eslint-config.git"
+		"url": "git+https://github.com/ExE-Boss/shared-config.git"
 	},
 	"bugs": {
-		"url": "https://github.com/ExE-Boss/eslint-config/issues"
+		"url": "https://github.com/ExE-Boss/shared-config/issues"
 	},
 
 	"peerDependencies": {
 		"eslint": ">= 4"
-	},
-	"devDependencies": {
-		"@types/extend": "3.x",
-		"eslint": "^5.15.3",
-		"extend": "^3.0.2"
 	}
 }

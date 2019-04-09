@@ -18,7 +18,7 @@
 
 const extend = require("extend");
 
-module.exports = extend(true, require("./index.js"), {
+module.exports = extend(true, require("@exe-boss/eslint-config"), {
 	env: {
 		node: true,
 	},

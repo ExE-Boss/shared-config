@@ -15,7 +15,7 @@ before_install:
 
 # The install script
 install:
-    - pnpm i
+    - pnpm multi install
 
 # The pre-build script
 before_script:

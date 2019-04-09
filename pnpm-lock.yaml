@@ -1,7 +1,17 @@
-devDependencies:
-  '@types/extend': 3.0.1
-  eslint: 5.15.3
-  extend: 3.0.2
+importers:
+  .:
+    devDependencies:
+      '@exe-boss/eslint-config': 'link:eslint-config'
+      '@types/extend': 3.0.1
+      eslint: 5.16.0
+      extend: 3.0.2
+    specifiers:
+      '@exe-boss/eslint-config': '*'
+      '@types/extend': 3.x
+      eslint: ^5.16.0
+      extend: ^3.0.2
+  eslint-config:
+    specifiers: {}
 lockfileVersion: 5
 packages:
   /@babel/code-frame/7.0.0:
@@ -95,12 +105,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==
-  /callsites/3.0.0:
+  /callsites/3.1.0:
     dev: true
     engines:
       node: '>=6'
     resolution:
-      integrity: sha512-tWnkwu9YEq2uzlBDI4RcLn8jrFvF9AOi8PxDNU3hZZjJcjkcRAq3vCI+vZcg1SuxISDYe86k9VZFwAxDiJGoAw==
+      integrity: sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==
   /chalk/2.4.2:
     dependencies:
       ansi-styles: 3.2.1
@@ -202,7 +212,7 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha512-qzm/XxIbxm/FHyH341ZrbnMUpe+5Bocte9xkmFMzPMjRaZMcXww+MpBptFvtU+79L362nqiLhekCxCxDPaUMBQ==
-  /eslint/5.15.3:
+  /eslint/5.16.0:
     dependencies:
       '@babel/code-frame': 7.0.0
       ajv: 6.10.0
@@ -224,7 +234,7 @@ packages:
       import-fresh: 3.0.0
       imurmurhash: 0.1.4
       inquirer: 6.2.2
-      js-yaml: 3.13.0
+      js-yaml: 3.13.1
       json-stable-stringify-without-jsonify: 1.0.1
       levn: 0.3.0
       lodash: 4.17.11
@@ -245,7 +255,7 @@ packages:
       node: ^6.14.0 || ^8.10.0 || >=9.10.0
     hasBin: true
     resolution:
-      integrity: sha512-vMGi0PjCHSokZxE0NLp2VneGw5sio7SSiDNgIUn2tC0XkWJRNOIoHIg3CliLVfXnJsiHxGAYrkw0PieAu8+KYQ==
+      integrity: sha512-S3Rz11i7c8AA5JPv7xAH+dOyq/Cu/VXHiHXBPOU1k/JAM5dXqQPt3qcrhpHSorXmrpu2g0gkIBVXAqCpzfoZIg==
   /espree/5.0.1:
     dependencies:
       acorn: 6.1.1
@@ -456,14 +466,14 @@ packages:
     dev: true
     resolution:
       integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
-  /js-yaml/3.13.0:
+  /js-yaml/3.13.1:
     dependencies:
       argparse: 1.0.10
       esprima: 4.0.1
     dev: true
     hasBin: true
     resolution:
-      integrity: sha512-pZZoSxcCYco+DIKBTimr67J6Hy+EYGZDY/HCWC+iAEA9h1ByhMXAIVUXMcMFpOCxQ/xjXmPI2MkDL5HRm5eFrQ==
+      integrity: sha512-YfbcO7jXDdyj0DGxYVSlSeQNHbD7XPWvrVWeVUujrQEoZzWJIRrCPoyk6kL6IAjAG2IolMK4T0hNUe0HOUs5Jw==
   /json-schema-traverse/0.4.1:
     dev: true
     resolution:
@@ -559,7 +569,7 @@ packages:
       integrity: sha1-u+Z0BseaqFxc/sdm/lc0VV36EnQ=
   /parent-module/1.0.1:
     dependencies:
-      callsites: 3.0.0
+      callsites: 3.1.0
     dev: true
     engines:
       node: '>=6'
@@ -801,7 +811,3 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha512-/lg70HAjtkUgWPVZhZcm+T4hkL8Zbtp1nFNOn3lRrxnlv50SRBv7cR7RqR+GMsd3hUXy9hWBo4CHTbFTcOYwig==
-specifiers:
-  '@types/extend': 3.x
-  eslint: ^5.15.3
-  extend: ^3.0.2
