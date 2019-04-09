@@ -5,3 +5,7 @@ ExE Boss’s shared configurations
 ================================
 
 The shared configuration files I use in all my projects.
+
+## Packages
+
+- [`@exe-boss/eslint-config`](./eslint-config)

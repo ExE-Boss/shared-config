@@ -1,0 +1,4 @@
+# Ignore build‑only files
+/.travis.yml
+/.git*
+/.eslint*
