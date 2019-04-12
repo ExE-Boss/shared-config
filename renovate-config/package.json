@@ -1,6 +1,6 @@
 {
 	"name": "@exe-boss/renovate-config",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "The Renovate configuration I use in all my projects.",
 	"author": "ExE Boss",
 	"license": "LGPL-3.0",
