@@ -1,0 +1,33 @@
+{
+	"name": "@exe-boss/renovate-config",
+	"version": "0.0.0",
+	"description": "The Renovate configuration I use in all my projects.",
+	"author": "ExE Boss",
+	"license": "LGPL-3.0",
+
+	"keywords": [
+		"renovate",
+		"renovate-config",
+		"renovateconfig"
+	],
+
+	"homepage": "https://github.com/ExE-Boss/shared-config/blob/master/renovate-config#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ExE-Boss/shared-config.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ExE-Boss/shared-config/issues"
+	},
+
+	"renovate-config": {
+		"default": {
+			"extends": [
+				"config:base",
+				":preserveSemverRanges",
+				":semanticPrefixChore",
+				":prNotPending"
+			]
+		}
+	}
+}

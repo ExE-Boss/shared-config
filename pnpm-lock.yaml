@@ -2,11 +2,13 @@ importers:
   .:
     devDependencies:
       '@exe-boss/eslint-config': 'link:eslint-config'
+      '@exe-boss/renovate-config': 'link:renovate-config'
       '@types/extend': 3.0.1
       eslint: 5.16.0
       extend: 3.0.2
     specifiers:
       '@exe-boss/eslint-config': '*'
+      '@exe-boss/renovate-config': '*'
       '@types/extend': 3.x
       eslint: ^5.16.0
       extend: ^3.0.2

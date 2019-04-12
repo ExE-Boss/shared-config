@@ -11,23 +11,14 @@ node_js:
 # The pre-install script
 before_install:
     - npm i -g pnpm
-    - pnpm i -g greenkeeper-lockfile@1
 
 # The install script
 install:
     - pnpm multi install
 
-# The pre-build script
-before_script:
-    - greenkeeper-lockfile-update || true
-
 # The build script
 script:
     - pnpm run lint
-
-# The post-build script
-after_script:
-    - greenkeeper-lockfile-upload || true
 
 # Disable email notifications
 notifications:
