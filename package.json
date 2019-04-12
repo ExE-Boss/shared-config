@@ -19,6 +19,7 @@
 
 	"devDependencies": {
 		"@exe-boss/eslint-config": "*",
+		"@exe-boss/renovate-config": "*",
 		"@types/extend": "3.x",
 		"eslint": "^5.16.0",
 		"extend": "^3.0.2"
