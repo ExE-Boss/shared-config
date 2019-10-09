@@ -10,7 +10,7 @@ importers:
       '@exe-boss/eslint-config': 'workspace:*'
       '@exe-boss/renovate-config': 'workspace:*'
       '@types/extend': 3.x
-      eslint: ^6.0.0
+      eslint: ^6.5.1
       extend: ^3.0.2
   eslint-config:
     specifiers: {}
