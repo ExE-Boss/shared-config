@@ -1,0 +1,20 @@
+{
+	"extends": "@exe-boss/eslint-config/es3",
+
+	"env": {
+		"es6": true
+	},
+
+	"parserOptions": {
+		"ecmaVersion": 2018
+	},
+
+	"rules": {
+		"no-var": "error",
+		"prefer-arrow-callback": "error",
+		"prefer-const": "warn",
+		"prefer-destructuring": "warn",
+		"prefer-rest-params": "error",
+		"prefer-template": "error"
+	}
+}

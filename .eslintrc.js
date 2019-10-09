@@ -4,15 +4,16 @@
 
 const extend = require("extend");
 
-module.exports = extend(true, require("@exe-boss/eslint-config"), {
+exports.root = true;
+exports.extends = "@exe-boss";
+
+extend(true, exports, {
 	env: {
 		node: true,
 	},
-	root: true,
 	rules: {
-		"sort-keys": [
-			"error",
-			"asc",
-		],
+		"sort-keys": "error",
 	},
 });
+
+Object.defineProperty(exports, "__esModule", { value: true });

@@ -4,7 +4,7 @@
 	"description": "The ESLint configuration I use in all my JavaScript projects.",
 	"author": "ExE Boss",
 	"license": "CC0-1.0",
-	"main": "index.js",
+	"main": "index.json",
 
 	"keywords": [
 		"eslint",

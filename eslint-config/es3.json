@@ -1,15 +1,8 @@
-/* Any copyright is dedicated to the Public Domain.
- * https://creativecommons.org/publicdomain/zero/1.0/ */
-"use strict";
-
-/* eslint quote-props: error */
-/* eslint comma-dangle: error */
-module.exports = {
-	"env": { "es6": true },
+{
 	"extends": "eslint:recommended",
 
 	"parserOptions": {
-		"ecmaVersion": 9
+		"ecmaVersion": 3
 	},
 
 	"rules": {
@@ -26,8 +19,7 @@ module.exports = {
 			"tab",
 			{
 				"SwitchCase": 1,
-				"ignoreComments": true,
-				"outerIIFEBody": 0
+				"ignoreComments": true
 			}
 		],
 		"linebreak-style": ["error", "unix"],
@@ -37,18 +29,19 @@ module.exports = {
 		"no-empty": "off",
 		"no-fallthrough": "warn",
 		"no-new-wrappers": "error",
-		"no-octal": "warn",
+		"no-octal": "error",
 		"no-regex-spaces": "warn",
 		"no-return-await": "error",
-		"no-unused-vars": "warn",
-		"no-var": "error",
+		"no-unused-vars": [
+			"warn",
+			{
+				"argsIgnorePattern": "^_",
+				"caughtErrorsIgnorePattern": "^_",
+				"varsIgnorePattern": "^_"
+			}
+		],
 		"operator-linebreak": "error",
-		"prefer-arrow-callback": "error",
-		"prefer-const": "warn",
-		"prefer-destructuring": "warn",
 		"prefer-numeric-literals": "error",
-		"prefer-rest-params": "error",
-		"prefer-template": "error",
 		"quotes": [
 			"error",
 			"double",
@@ -60,9 +53,10 @@ module.exports = {
 		"require-jsdoc": "off",
 		"semi": ["error", "always"],
 		"sort-imports": "error",
+		"sort-keys": ["off", "asc", { "natural": true }],
 		"strict": ["error", "global"],
 		"valid-jsdoc": [
-			"warn",
+			"off",
 			{
 				"prefer": {
 					"arg": "param",
@@ -83,4 +77,4 @@ module.exports = {
 			}
 		]
 	}
-};
+}
