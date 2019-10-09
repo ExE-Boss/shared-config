@@ -10,6 +10,7 @@
 	},
 
 	"rules": {
+		"comma-dangle": ["error", "always-multiline"],
 		"no-var": "error",
 		"prefer-arrow-callback": "error",
 		"prefer-const": "warn",
