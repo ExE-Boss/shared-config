@@ -2,42 +2,35 @@
  * https://creativecommons.org/publicdomain/zero/1.0/ */
 "use strict";
 
+/* eslint quote-props: error */
+/* eslint comma-dangle: error */
 module.exports = {
-	env: {
-		es6: true,
+	"env": { "es6": true },
+	"extends": "eslint:recommended",
+
+	"parserOptions": {
+		"ecmaVersion": 9
 	},
-	extends: "eslint:recommended",
-	parserOptions: {
-		ecmaVersion: 9,
-	},
-	rules: {
+
+	"rules": {
 		"block-scoped-var": "error",
-		"comma-dangle": [
-			"error",
-			"always-multiline",
-		],
+		"comma-dangle": ["error", "always-multiline"],
 		"consistent-return": "error",
 		"consistent-this": "error",
-		"dot-location": [
-			"error",
-			"property",
-		],
+		"dot-location": ["error", "property"],
 		"dot-notation": "error",
 		"eol-last": "error",
-		eqeqeq: "error",
-		indent: [
+		"eqeqeq": "error",
+		"indent": [
 			"error",
 			"tab",
 			{
-				SwitchCase: 1,
-				ignoreComments: true,
-				outerIIFEBody: 0,
-			},
+				"SwitchCase": 1,
+				"ignoreComments": true,
+				"outerIIFEBody": 0
+			}
 		],
-		"linebreak-style": [
-			"error",
-			"unix",
-		],
+		"linebreak-style": ["error", "unix"],
 		"no-await-in-loop": "warn",
 		"no-console": "off",
 		"no-constant-condition": "warn",
@@ -56,44 +49,38 @@ module.exports = {
 		"prefer-numeric-literals": "error",
 		"prefer-rest-params": "error",
 		"prefer-template": "error",
-		quotes: [
+		"quotes": [
 			"error",
 			"double",
 			{
-				allowTemplateLiterals: true,
-				avoidEscape: true,
-			},
+				"allowTemplateLiterals": true,
+				"avoidEscape": true
+			}
 		],
 		"require-jsdoc": "off",
-		semi: [
-			"error",
-			"always",
-		],
+		"semi": ["error", "always"],
 		"sort-imports": "error",
-		strict: [
-			"error",
-			"global",
-		],
+		"strict": ["error", "global"],
 		"valid-jsdoc": [
 			"warn",
 			{
-				prefer: {
-					arg:	"param",
-					argument:	"param",
-					prop:	"property",
-					returns:	"return",
+				"prefer": {
+					"arg": "param",
+					"argument": "param",
+					"prop": "property",
+					"returns": "return"
 				},
-				preferType: {
-					Boolean:	"boolean",
-					Number:	"number",
-					String:	"string",
-					bool:	"boolean",
+				"preferType": {
+					"Boolean": "boolean",
+					"Number": "number",
+					"String": "string",
+					"bool": "boolean"
 				},
-				requireParamDescription: false,
-				requireReturn: false,
-				requireReturnDescription: false,
-				requireReturnType: false,
-			},
-		],
-	},
+				"requireParamDescription": false,
+				"requireReturn": false,
+				"requireReturnDescription": false,
+				"requireReturnType": false
+			}
+		]
+	}
 };
