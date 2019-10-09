@@ -3,7 +3,7 @@
 	"version": "0.1.3",
 	"description": "The ESLint configuration I use in all my JavaScript projects.",
 	"author": "ExE Boss",
-	"license": "LGPL-3.0",
+	"license": "CC0-1.0",
 	"main": "index.js",
 
 	"keywords": [

@@ -3,7 +3,7 @@
 	"version": "0.1.0",
 	"description": "The Renovate configuration I use in all my projects.",
 	"author": "ExE Boss",
-	"license": "LGPL-3.0",
+	"license": "CC0-1.0",
 
 	"keywords": [
 		"renovate",
