@@ -1,0 +1,75 @@
+{
+	"extends": "eslint:recommended",
+	"parserOptions": {
+		"ecmaVersion": 2018
+	},
+	"rules": {
+		"block-scoped-var": "error",
+		"comma-dangle": ["error", "always-multiline"],
+		"dot-location": ["error", "property"],
+		"dot-notation": "error",
+		"eol-last": "error",
+		"eqeqeq": "error",
+		"indent": [
+			"error",
+			"tab",
+			{
+				"SwitchCase": 1,
+				"ignoreComments": true
+			}
+		],
+		"linebreak-style": ["error", "unix"],
+		"no-await-in-loop": "warn",
+		"no-console": "off",
+		"no-constant-condition": "warn",
+		"no-empty": "off",
+		"no-fallthrough": "warn",
+		"no-new-wrappers": "error",
+		"no-octal": "error",
+		"no-regex-spaces": "warn",
+		"no-return-await": "error",
+		"no-unused-vars": [
+			"warn",
+			{
+				"argsIgnorePattern": "^_",
+				"caughtErrorsIgnorePattern": "^_",
+				"varsIgnorePattern": "^_"
+			}
+		],
+		"operator-linebreak": "error",
+		"prefer-numeric-literals": "error",
+		"quotes": [
+			"error",
+			"double",
+			{
+				"allowTemplateLiterals": true,
+				"avoidEscape": true
+			}
+		],
+		"require-jsdoc": "off",
+		"semi": ["error", "always"],
+		"sort-keys": ["off", "asc", { "natural": true }],
+		"strict": ["error", "global"],
+		"valid-jsdoc": [
+			"off",
+			{
+				"prefer": {
+					"arg": "param",
+					"argument": "param",
+					"prop": "property",
+					"returns": "return"
+				},
+				"preferType": {
+					"Boolean": "boolean",
+					"Number": "number",
+					"String": "string",
+					"bool": "boolean"
+				},
+				"requireParamDescription": false,
+				"requireReturn": false,
+				"requireReturnDescription": false,
+				"requireReturnType": false
+			}
+		]
+	}
+}
