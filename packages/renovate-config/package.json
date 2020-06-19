@@ -13,6 +13,7 @@
 
 	"homepage": "https://github.com/ExE-Boss/shared-config/blob/master/renovate-config#readme",
 	"repository": {
+		"directory": "packages/renovate-config",
 		"type": "git",
 		"url": "git+https://github.com/ExE-Boss/shared-config.git"
 	},

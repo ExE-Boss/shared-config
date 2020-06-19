@@ -1,8 +1,8 @@
 importers:
   .:
     devDependencies:
-      '@exe-boss/eslint-config': 'link:eslint-config'
-      '@exe-boss/renovate-config': 'link:renovate-config'
+      '@exe-boss/eslint-config': 'link:packages/eslint-config'
+      '@exe-boss/renovate-config': 'link:packages/renovate-config'
       '@types/extend': 3.0.1
       eslint: 6.5.1
       extend: 3.0.2
@@ -12,9 +12,9 @@ importers:
       '@types/extend': 3.x
       eslint: ^6.5.1
       extend: ^3.0.2
-  eslint-config:
+  packages/eslint-config:
     specifiers: {}
-  renovate-config:
+  packages/renovate-config:
     specifiers: {}
 lockfileVersion: 5.1
 packages:

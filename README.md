@@ -8,5 +8,5 @@ The shared configuration files I use in all my projects.
 
 ## Packages
 
-- [`@exe-boss/eslint-config`](./eslint-config)
-- [`@exe-boss/renovate-config`](./renovate-config)
+- [`@exe-boss/eslint-config`](./packages/eslint-config)
+- [`@exe-boss/renovate-config`](./packages/renovate-config)

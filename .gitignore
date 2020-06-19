@@ -4,7 +4,7 @@
 # Except:
 ## Sources
 !/src
-!/*-config
+!/packages
 
 ## Git
 !/.gitattributes
@@ -21,11 +21,15 @@
 !/.*rc.js
 !/.*rc.yml
 !/.*rc.json
+!/*config
+!/*config.js
+!/*config.yml
+!/*config.json
 !/gulpfile*
 !/package*
+/package-lock.json
 !/pnpm*
 !/.*ignore
-!/.*config
 
 ### Ignore `node_modules`:
 /**/node_modules/**
