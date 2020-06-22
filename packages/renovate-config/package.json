@@ -11,7 +11,7 @@
 		"renovateconfig"
 	],
 
-	"homepage": "https://github.com/ExE-Boss/shared-config/blob/master/renovate-config#readme",
+	"homepage": "https://github.com/ExE-Boss/shared-config/tree/master/packages/renovate-config#readme",
 	"repository": {
 		"directory": "packages/renovate-config",
 		"type": "git",
