@@ -22,7 +22,7 @@
 		"@exe-boss/eslint-config": "workspace:*",
 		"@exe-boss/renovate-config": "workspace:*",
 		"@types/extend": "3.x",
-		"eslint": "^7.0.0",
+		"eslint": "^8.0.0",
 		"extend": "^3.0.2"
 	}
 }
